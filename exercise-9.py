@@ -9,9 +9,9 @@ def palindrome(number):
 
     # Compare original and reversed strings
     if str_number == reverse_string:
-        return True
+        print("Yes, the given number is a palindrome.")
     else:
-        return False
+        print("No, the given number is not a palindrome.")
 
 # Given
 number_1 = 505
@@ -20,5 +20,3 @@ number_2 = 325
 # Check if given are palindrome numbers
 result_1 = palindrome(number_1)
 result_2 = palindrome(number_2)
-
-# Print results
