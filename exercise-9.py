@@ -8,6 +8,10 @@ def palindrome(number):
     # Reverse the string
     reverse_string = str(number[-1])
 
-# Compare original and reversed strings
+    # Compare original and reversed strings
+    if str_number == reverse_string:
+        return True
+    else:
+        return False
 
 # Print results
