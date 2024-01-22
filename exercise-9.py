@@ -18,7 +18,9 @@ def palindrome(number):
 # Given
 number_1 = 505
 number_2 = 325
+number_3 = 103
 
 # Check if given are palindrome numbers
 result_1 = palindrome(number_1)
 result_2 = palindrome(number_2)
+result_3 = palindrome(number_3)
