@@ -5,12 +5,14 @@ def palindrome(number):
     str_number = str(number)
 
     # Reverse the string
-    reverse_string = str_number[-1]
+    reverse_string = str_number[::-1]
 
     # Compare original and reversed strings
     if str_number == reverse_string:
+        print(f"Original number: ", number)
         print("Yes, the given number is a palindrome.")
     else:
+        print(f"Original number: ", number)
         print("No, the given number is not a palindrome.")
 
 # Given
