@@ -1,10 +1,12 @@
 # Check Palindrome Number
 
 # Check if the given is a palindrome number
+def palindrome(number):
+    # Convert number to string
+    str_number = str(number)
 
-# Convert number to string
-
-# Reverse the string
+    # Reverse the string
+    reverse_string = str(number[-1])
 
 # Compare original and reversed strings
 
